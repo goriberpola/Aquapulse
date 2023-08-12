@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.settingfragment">
+
+    <!-- Replace the placeholder with the settings fragment layout content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Paste the content of settings fragment.xml here -->
+
+            <!-- Reminder Settings -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reminder Settings"
+                android:textStyle="bold"
+                android:padding="16dp"
+                android:textSize="20dp"/>
+
+            <!-- Reminder Schedule -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reminder Schedule"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+
+                />
+
+            <!-- Reminder Sound -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reminder Sound"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                />
+
+            <!-- Reminder Mode -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reminder Mode"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+
+
+            <!-- Switch for Further Reminder -->
+            <Switch
+                android:id="@+id/switchFurtherReminder"
+                android:layout_width="394dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="12dp"
+
+                android:checked="false"
+                android:text=" Further Reminder"
+                android:textSize="15dp"/>
+
+            <!-- General Settings -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="General"
+                android:textStyle="bold"
+                android:padding="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"/>
+
+            <!-- Remove Ads -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remove ADS"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+            <!-- Light/Dark Interface -->
+            <Switch
+                android:id="@+id/darkmodeID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dark mode"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+            <!-- Unit -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unit"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                />
+
+            <!-- Intake Goal -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intake Goal"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+            <!-- Language -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Language"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+            <!-- Personal Information -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal Information"
+                android:textStyle="bold"
+                android:padding="16dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textSize="15dp"
+
+                    />
+
+                <Spinner
+                    android:id="@+id/spinnerGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="220dp"
+                    android:entries="@array/gender_options" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Weight"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+
+
+            <!-- Wake-up Time -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wake-up Time"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+            <!-- Bedtime -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bedtime"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+            <!-- Feedback -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                android:textStyle="bold"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:textSize="20dp"/>
+
+            <Switch
+                android:id="@+id/switch_hide_tips"
+                android:layout_width="394dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="12dp"
+                android:checked="false"
+                android:text="Hide tips from home page"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why does AQUAPULSE not work ??"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reset Data"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feed Back"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+
+
+            <!-- Share -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+            <!-- Privacy Policy -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

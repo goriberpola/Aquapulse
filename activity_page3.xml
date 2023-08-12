@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page3">
+
+    <TextView
+        android:id="@+id/ShowNumbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="90dp"
+        android:text="Your Weight"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="45dp" />
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="350dp"
+        android:src="@drawable/weight"
+        android:layout_marginTop="155dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="110dp"
+        />
+
+
+
+    <NumberPicker
+        android:id="@+id/weightNumberPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="#40BCF4"
+        android:text="NEXT"
+        android:textSize="17dp"
+        />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="#40BCF4"
+        android:text="BACK"
+        android:textSize="17dp"
+        />
+
+
+
+
+
+</RelativeLayout>

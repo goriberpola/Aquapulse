@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".monitor">
+
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="84dp"
+        android:src="@drawable/waterintake"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:src="@drawable/diagram"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="100dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal hydration plan"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="130dp"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to effectively monitor"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:textSize="28dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check your hydration report and see your ratio"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="#40BCF4"
+        android:text="                    START                    "
+        android:textSize="17dp"
+
+        />
+
+
+
+</RelativeLayout>

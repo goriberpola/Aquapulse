@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".waterintake"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="84dp"
+        android:src="@drawable/waterintake"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal hydration plan"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="130dp"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your proper daily water intake"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:textSize="26dp" />
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="#40BCF4"
+        android:text=" NEXT >"
+        android:textSize="17dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:textSize="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginRight="20dp"
+        android:text="ml"
+        />
+
+    <TextView
+        android:id="@+id/calculatedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="20dp"
+        android:text=""
+        android:textSize="40dp"
+        android:layout_gravity="center" />
+</RelativeLayout>
